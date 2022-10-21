@@ -82,7 +82,7 @@ print(df_modified)
 df.drop('Maxpulse', inplace=True, axis=1)#delete maxpulse 1 for columns
 print(df.dtypes)
 
-df.plot.scatter(x='Duration',y='Calories')#creatring a scatter plot
+df.plot.scatter(x='Duration',y='Calories')#creating a scatter plot
 df
 
 
